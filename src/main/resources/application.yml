@@ -1,0 +1,26 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    password: rajesh
+    url: jdbc:h2:mem:testdb
+    username: sa
+  h2:
+    console:
+      enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: rajeshkilladi96@gmail.com
+    password: ztny uldy kgii qomg
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+   
+            
